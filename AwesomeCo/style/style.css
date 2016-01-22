@@ -1,0 +1,67 @@
+﻿body {
+	width:	960px;
+	background-color: #d7d7d7;
+	margin: 15px auto;
+	font-family: 	"GarogierRegular", Georgia, "Palatino", "Palatino Linotype", "Times", "Times New Roman", serif; 
+}
+p {
+	margind-left: 0 0 20px 0;
+}
+p, li {
+	line-height: 20px;
+}
+header#page_header {
+	width: 100%;
+	text-align: center;
+} 
+header#page_header nav ul, #page_footer nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+header#page_header nav ul li, #page_footer nav ul li {
+	padding: 0;
+	margin: 0 20px 0 0;
+	display: inline;
+}
+section#posts {
+	float: left;
+	width: 74%;
+}
+section#posts aside {
+	float: right;
+	width: 35%;
+	margin-left: 5%;
+	font-size: 20px;
+	line-height: 40px; 
+}
+section#sidebar {
+	float: right;
+	width: 25%
+}
+footer#page_footer {
+	clear: both;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+@media only creen and (max-device-width: 480px;) {
+	body {
+		width: 460px;
+	}
+	section#sidebar, section#posts {
+		float: none;
+		width: 100%;
+	}
+}
+@font-face {
+    font-family: 'GarogierRegular';
+    src: url('../fonts/Garogier-webfont.eot');
+    src: url('../fonts/Garogier-webfont.woff')
+format('woff'),
+    url('../fonts/Garogier-webfont.ttf')
+format('truetype'),
+    url('../fonts/Garogier-webfont.svg')
+format('svg');
+font-weight: normal;
+}
